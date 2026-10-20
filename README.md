@@ -1,195 +1,301 @@
+```markdown
 <div align="center">
 
-<!-- Top Navigation & Social Strip -->
-<a href="https://indrasingh29.github.io/indra-portfolio/">
-  <img src="https://img.shields.io/badge/PORTFOLIO-27E6A2?style=for-the-badge&logo=googlechrome&logoColor=030A12&labelColor=071522" alt="Portfolio"/>
-</a>
-<a href="https://www.linkedin.com/in/indra-singh-jeena-1a9542216/">
-  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=071522" alt="LinkedIn"/>
-</a>
-<a href="https://github.com/indrasingh29">
-  <img src="https://img.shields.io/badge/GITHUB-22D3EE?style=for-the-badge&logo=github&logoColor=030A12&labelColor=071522" alt="GitHub Profile"/>
-</a>
-<a href="mailto:indrasinghjeena@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-183044?style=for-the-badge&logo=gmail&logoColor=27E6A2&labelColor=071522" alt="Contact Email"/>
-</a>
-
-<br/><br/>
-
-<!-- Hero Cinematic Mountain Banner -->
-<a href="https://github.com/indrasingh29">
-  <img src="assets/hero-banner.svg" width="100%" alt="Indra Singh Jeena — Full-Stack Developer Banner"/>
-</a>
-
-<br/>
-
-<p align="center">
-  <strong>Build. Learn. Improve. Repeat.</strong>
-</p>
-
-</div>
-
----
-
-### `01` — Core Information
-
-<table>
+<!-- Top Navigation & Status Bar -->
+<table width="100%" style="width: 100%; border: none;">
   <tr>
-    <td width="33%" valign="top">
-      <h3>⚡ About Me</h3>
-      <p>I am a <strong>Computer Science Engineering student</strong> passionate about building practical, production-minded web applications and sharpening my engineering fundamentals.</p>
-      <ul>
-        <li>Developing full-stack web applications using the <strong>MERN stack</strong>.</li>
-        <li>Practising Data Structures &amp; Algorithms in <strong>Java</strong>.</li>
-        <li>Exploring <strong>Python</strong> and backend services.</li>
-        <li>Interested in internships, entry-level opportunities, and tech collaboration.</li>
-      </ul>
-      <p><em>“Turning ideas into applications. Turning learning into progress.”</em></p>
+    <td align="left" style="border: none;">
+      <a href="https://github.com/indrasingh29">
+        <img src="https://img.shields.io/badge/indrasingh29-Build%20%E2%80%A2%20Learn%20%E2%80%A2%20Improve%20%E2%80%A2%20Repeat-071522?style=flat-square&logo=github&logoColor=white" alt="indrasingh29" />
+      </a>
     </td>
-    <td width="34%" valign="top">
-      <h3>🛠️ Tech Stack</h3>
-      <p><strong>Languages</strong></p>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,js,python,html,css&theme=dark" alt="Java, JavaScript, Python, HTML5, CSS3"/></a>
-      <p><strong>Frontend &amp; Backend</strong></p>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nodejs,express&theme=dark" alt="React, Node.js, Express"/></a>
-      <p><strong>Databases</strong></p>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,mysql&theme=dark" alt="MongoDB, MySQL"/></a>
-      <p><strong>Tools &amp; DevOps</strong></p>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,vscode,idea,docker&theme=dark" alt="Git, GitHub, VS Code, IntelliJ IDEA, Docker"/></a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>📌 Quick Facts</h3>
-      <p><strong>🎯 Target Role:</strong><br/>Full-Stack / MERN Developer</p>
-      <p><strong>💡 Technical Focus:</strong><br/>MERN Stack · Java + DSA · Python</p>
-      <p><strong>🎓 Education:</strong><br/>B.Tech CSE (Pursuing)</p>
-      <p><strong>📍 Location:</strong><br/>India</p>
-      <p><strong>🟢 Availability:</strong><br/>Open to internships &amp; entry-level opportunities</p>
+    <td align="right" style="border: none;">
+      <img src="https://img.shields.io/badge/%E2%97%8F%20Full--Stack%20Developer%20%E2%80%A2%20MERN%20Stack%20%E2%80%A2%20Java%20%26%20DSA-071522?style=flat-square&labelColor=071522&color=27E6A2" alt="Status" />
     </td>
   </tr>
 </table>
 
----
+<!-- Cinematic Mountain Hero Banner -->
+<a href="https://github.com/indrasingh29">
+  <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/hero-banner.svg" width="100%" alt="Indra Singh Jeena — Cinematic Mountain Hero Banner" />
+</a>
 
-### `02` — Featured Projects
+<br/><br/>
 
-<table>
+<!-- Profile Action & Social Buttons -->
+<a href="https://indrasingh29.github.io/indra-portfolio/">
+  <img src="https://img.shields.io/badge/Portfolio-071522?style=for-the-badge&logo=googlechrome&logoColor=27E6A2&labelColor=071522" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/indra-singh-jeena-1a9542216">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://github.com/indrasingh29">
+  <img src="https://img.shields.io/badge/GitHub-071522?style=for-the-badge&logo=github&logoColor=white&labelColor=071522" alt="GitHub" />
+</a>
+&nbsp;
+<a href="mailto:indrasinghjeena@gmail.com">
+  <img src="https://img.shields.io/badge/Email-071522?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=071522" alt="Email" />
+</a>
+
+</div>
+
+<br/>
+
+<!-- Three-Column Layout: About Me, Tech Stack, Quick Facts -->
+<table width="100%">
   <tr>
+    <!-- Panel 1: About Me -->
+    <td width="33%" valign="top">
+      <h3>👤 About Me</h3>
+      <p>I'm a CSE student focused on full-stack web development and software engineering fundamentals. I enjoy turning ideas into functional products, solving problems through code, and continuously improving my skills.</p>
+      <ul>
+        <li>⚛️ Building web applications with the MERN stack</li>
+        <li>🛡️ Practising Data Structures &amp; Algorithms using Java</li>
+        <li>➕ Exploring Python and strengthening programming fundamentals</li>
+        <li>🗄️ Interested in REST APIs, database design and backend development</li>
+        <li>🤝 Open to internships, entry-level opportunities and collaboration</li>
+      </ul>
+      <br/>
+      <p><em>“ Code today, create tomorrow. ”</em></p>
+    </td>
+
+    <!-- Panel 2: Tech Stack -->
+    <td width="34%" valign="top">
+      <h3>&lt;/&gt; Tech Stack</h3>
+      <p><strong>Languages</strong></p>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=java,js,python,html,css&theme=dark" alt="Languages: Java, JavaScript, Python, HTML5, CSS3" />
+      </a>
+      <p><strong>Frontend &amp; Backend</strong></p>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=react,nodejs,express&theme=dark" alt="Frontend and Backend: React, Node.js, Express" />
+      </a>
+      <p><strong>Databases &amp; Tools</strong></p>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=mongodb,mysql,git,github&theme=dark" alt="Databases and Git: MongoDB, MySQL, Git, GitHub" />
+      </a>
+      <br/>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=vscode,idea,docker&theme=dark" alt="Tools: VS Code, IntelliJ IDEA, Docker" />
+      </a>
+    </td>
+
+    <!-- Panel 3: Quick Facts -->
+    <td width="33%" valign="top">
+      <h3>🎯 Quick Facts</h3>
+      <p>💼 <strong>Target Role</strong><br/>Full-Stack / MERN Developer</p>
+      <p>💡 <strong>Focus Areas</strong><br/>MERN Stack, Java + DSA, Python</p>
+      <p>📍 <strong>Location</strong><br/>India</p>
+      <p>🎓 <strong>Education</strong><br/>B.Tech CSE (Pursuing)</p>
+      <p>⏱️ <strong>Availability</strong><br/>Open for opportunities</p>
+      <br/>
+      <p><em>Small steps<br/>build big results.</em></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Featured Projects Section Header -->
+<table width="100%" style="border: none;">
+  <tr>
+    <td align="left" style="border: none;">
+      <h3>📁 Featured Projects</h3>
+    </td>
+    <td align="right" style="border: none;">
+      <a href="https://github.com/indrasingh29?tab=repositories"><b>View All Projects →</b></a>
+    </td>
+  </tr>
+</table>
+
+<!-- Featured Projects 2x2 Grid -->
+<table width="100%">
+  <tr>
+    <!-- Project 1: Job & Internship Portal -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/job-internship-portal">
-        <img src="assets/project-job-portal.svg" width="100%" alt="Job & Internship Portal"/>
+        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-job-portal.svg" width="100%" alt="Job & Internship Portal" />
       </a>
       <br/><br/>
-      <h4><a href="https://github.com/indrasingh29/job-internship-portal">Job &amp; Internship Portal</a></h4>
-      <p><code>React 18</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Tailwind CSS</code> <code>Render</code></p>
-      <p>A production-ready MERN platform connecting students, recruiters, and administrators with dedicated workflows and telemetry.</p>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;"><b>Job &amp; Internship Portal</b></td>
+          <td align="right" style="border: none; padding: 0;">
+            <img src="https://img.shields.io/badge/MERN-071522?style=flat-square&color=22D3EE" alt="MERN" />
+          </td>
+        </tr>
+      </table>
+      <p>A full-stack platform to connect job seekers with job and internship opportunities.</p>
       <ul>
-        <li><strong>Curated Directory:</strong> 50 tech employer profiles with 52 active job and internship listings.</li>
-        <li><strong>Role-Based Access:</strong> Granular JWT auth guards for Student, Recruiter, and Admin portals.</li>
-        <li><strong>Application Tracking:</strong> Track application statuses, cover letters, and bookmarked opportunities.</li>
+        <li>Job listings &amp; role-based workflows</li>
+        <li>Authentication &amp; dashboards</li>
+        <li>Responsive and modern UI</li>
       </ul>
-      <p>
-        <a href="https://github.com/indrasingh29/job-internship-portal"><b>↗ GitHub Repository</b></a> &nbsp;|&nbsp;
-        <a href="https://job-portal-web-8a3p.onrender.com"><b>🌐 Live Web App</b></a>
-      </p>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;">
+            <a href="https://github.com/indrasingh29/job-internship-portal"><b>GitHub</b></a>
+          </td>
+          <td align="right" style="border: none; padding: 0;">
+            <a href="https://job-portal-web-8a3p.onrender.com"><b>View Project →</b></a>
+          </td>
+        </tr>
+      </table>
     </td>
+
+    <!-- Project 2: Developer Portfolio -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/indra-portfolio">
-        <img src="assets/project-portfolio.svg" width="100%" alt="Developer Portfolio"/>
+        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-portfolio.svg" width="100%" alt="Developer Portfolio" />
       </a>
       <br/><br/>
-      <h4><a href="https://github.com/indrasingh29/indra-portfolio">Developer Portfolio</a></h4>
-      <p><code>React 19</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Framer Motion</code> <code>GitHub API</code> <code>Pages</code></p>
-      <p>A modern, recruiter-focused developer portfolio featuring glassmorphic design and interactive animations.</p>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;"><b>Developer Portfolio</b></td>
+          <td align="right" style="border: none; padding: 0;">
+            <img src="https://img.shields.io/badge/Portfolio-071522?style=flat-square&color=27E6A2" alt="Portfolio" />
+          </td>
+        </tr>
+      </table>
+      <p>A personal website to showcase my developer profile, projects and skills.</p>
       <ul>
-        <li><strong>Dynamic REST API:</strong> Live GitHub profile &amp; repository statistics with local caching and offline fallback.</li>
-        <li><strong>Modern UI/UX:</strong> Glassmorphic cards, canvas particle constellation, and interactive 3D perspective tilt effects.</li>
-        <li><strong>Recruiter Utilities:</strong> Deep-dive architecture modal, ATS resume download, and automated GitHub Pages CI/CD.</li>
+        <li>Modern &amp; responsive design</li>
+        <li>Smooth animations</li>
+        <li>Clean and professional UI</li>
       </ul>
-      <p>
-        <a href="https://github.com/indrasingh29/indra-portfolio"><b>↗ GitHub Repository</b></a> &nbsp;|&nbsp;
-        <a href="https://indrasingh29.github.io/indra-portfolio/"><b>🌐 Live Website</b></a>
-      </p>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;">
+            <a href="https://indrasingh29.github.io/indra-portfolio/"><b>🌐 Live Site</b></a>
+          </td>
+          <td align="right" style="border: none; padding: 0;">
+            <a href="https://github.com/indrasingh29/indra-portfolio"><b>View Code →</b></a>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
+
   <tr>
+    <!-- Project 3: QuickKart -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/quickkart">
-        <img src="assets/project-quickkart.svg" width="100%" alt="QuickKart"/>
+        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-quickkart.svg" width="100%" alt="QuickKart" />
       </a>
       <br/><br/>
-      <h4><a href="https://github.com/indrasingh29/quickkart">QuickKart</a></h4>
-      <p><code>MERN Stack</code> <code>Socket.io</code> <code>Docker</code> <code>Razorpay-Ready</code> <code>Tailwind CSS</code></p>
-      <p>A hyperlocal quick-commerce platform architected with three client applications and real-time order tracking.</p>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;"><b>QuickKart</b></td>
+          <td align="right" style="border: none; padding: 0;">
+            <img src="https://img.shields.io/badge/MERN-071522?style=flat-square&color=22D3EE" alt="MERN" />
+          </td>
+        </tr>
+      </table>
+      <p>An e-commerce platform for a smooth shopping experience.</p>
       <ul>
-        <li><strong>3 Client Apps:</strong> Customer storefront, admin operations dashboard, and rider delivery app.</li>
-        <li><strong>Live Telemetry:</strong> Real-time order status updates and location broadcasts powered by Socket.io.</li>
-        <li><strong>Robust Backend:</strong> Role-based access control, indexed MongoDB schemas, Razorpay-ready payment flow, and Docker orchestration.</li>
+        <li>Product listing &amp; cart system</li>
+        <li>User authentication</li>
+        <li>Modern and responsive UI</li>
       </ul>
-      <p>
-        <a href="https://github.com/indrasingh29/quickkart"><b>↗ GitHub Repository</b></a>
-      </p>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;">
+            <a href="https://github.com/indrasingh29/quickkart"><b>GitHub</b></a>
+          </td>
+          <td align="right" style="border: none; padding: 0;">
+            <a href="https://github.com/indrasingh29/quickkart"><b>View Project →</b></a>
+          </td>
+        </tr>
+      </table>
     </td>
+
+    <!-- Project 4: AI Resume Analyzer -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/ai-resume-analyzer">
-        <img src="assets/project-resume-analyzer.svg" width="100%" alt="AI Resume Analyzer"/>
+        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-resume-analyzer.svg" width="100%" alt="AI Resume Analyzer" />
       </a>
       <br/><br/>
-      <h4><a href="https://github.com/indrasingh29/ai-resume-analyzer">AI Resume Analyzer</a></h4>
-      <p><code>Next.js</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Tailwind CSS</code> <code>Docker</code></p>
-      <p>An ATS resume evaluation platform providing automated feedback, scoring, and tailored interview questions.</p>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;"><b>AI Resume Analyzer</b></td>
+          <td align="right" style="border: none; padding: 0;">
+            <img src="https://img.shields.io/badge/Python-071522?style=flat-square&color=22D3EE" alt="Python" />
+          </td>
+        </tr>
+      </table>
+      <p>An AI-powered tool to analyze resumes and provide insights.</p>
       <ul>
-        <li><strong>ATS Scoring Engine:</strong> Automated PDF resume text extraction with instant ATS compatibility scoring.</li>
-        <li><strong>Gap Analysis:</strong> Detailed keyword gap breakdown, tailored strength highlights, and generated interview questions.</li>
-        <li><strong>User Dashboard:</strong> Secure JWT authentication with persistent analysis history and Render Blueprint deployment.</li>
+        <li>Resume parsing &amp; analysis</li>
+        <li>Career recommendations</li>
+        <li>Simple and intuitive UI</li>
       </ul>
+      <table width="100%" style="border: none;">
+        <tr>
+          <td align="left" style="border: none; padding: 0;">
+            <a href="https://github.com/indrasingh29/ai-resume-analyzer"><b>GitHub</b></a>
+          </td>
+          <td align="right" style="border: none; padding: 0;">
+            <a href="https://ai-resume-analyzer-web-usrb.onrender.com"><b>View Project →</b></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Bottom Analytics & Contact Section -->
+<table width="100%">
+  <tr>
+    <!-- Left: GitHub Stats -->
+    <td width="58%" valign="top">
+      <h3>📊 GitHub Stats</h3>
+      <div align="center">
+        <a href="https://github.com/indrasingh29">
+          <img src="https://github-readme-stats.vercel.app/api?username=indrasingh29&show_icons=true&bg_color=071522&title_color=27E6A2&text_color=E8F0FA&icon_color=22D3EE&border_color=183044" width="48%" alt="GitHub Stats" />
+        </a>
+        <a href="https://github.com/indrasingh29">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrasingh29&layout=compact&bg_color=071522&title_color=27E6A2&text_color=E8F0FA&border_color=183044" width="48%" alt="Most Used Languages" />
+        </a>
+        <br/><br/>
+        <a href="https://github.com/indrasingh29">
+          <img src="https://streak-stats.demolab.com?user=indrasingh29&background=071522&ring=27E6A2&fire=22D3EE&currStreakLabel=27E6A2&sideLabels=9CB0C8&currStreakNum=E8F0FA&sideNums=E8F0FA&dates=9CB0C8&border=183044" width="98%" alt="GitHub Contribution Streak" />
+        </a>
+      </div>
+    </td>
+
+    <!-- Right: Let's Connect -->
+    <td width="42%" valign="top">
+      <h3>🚀 Let's Connect</h3>
+      <p>I'm always open to learning, discussing ideas, and collaborating on meaningful projects.</p>
+      <br/>
       <p>
-        <a href="https://github.com/indrasingh29/ai-resume-analyzer"><b>↗ GitHub Repository</b></a> &nbsp;|&nbsp;
-        <a href="https://ai-resume-analyzer-web-usrb.onrender.com"><b>🌐 Live Web App</b></a>
+        💻 <b>GitHub</b><br/>
+        <a href="https://github.com/indrasingh29">github.com/indrasingh29</a>
+      </p>
+      <p>
+        💼 <b>LinkedIn</b><br/>
+        <a href="https://www.linkedin.com/in/indra-singh-jeena-1a9542216">linkedin.com/in/indra-singh-jeena-1a9542216</a>
+      </p>
+      <p>
+        🌐 <b>Portfolio</b><br/>
+        <a href="https://indrasingh29.github.io/indra-portfolio/">indrasingh29.github.io/indra-portfolio</a>
+      </p>
+      <p>
+        ✉️ <b>Email</b><br/>
+        <a href="mailto:indrasinghjeena@gmail.com">indrasinghjeena@gmail.com</a>
       </p>
     </td>
   </tr>
 </table>
 
----
-
-### `03` — GitHub Analytics
-
-<div align="center">
-
-<a href="https://github.com/indrasingh29">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=indrasingh29&show_icons=true&bg_color=071522&title_color=27E6A2&text_color=E8F0FA&icon_color=22D3EE&border_color=183044" alt="GitHub Statistics"/>
-</a>
-<a href="https://github.com/indrasingh29">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrasingh29&layout=compact&bg_color=071522&title_color=27E6A2&text_color=E8F0FA&border_color=183044" alt="Most Used Languages"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/indrasingh29">
-  <img src="https://streak-stats.demolab.com?user=indrasingh29&background=071522&ring=27E6A2&fire=22D3EE&currStreakLabel=27E6A2&sideLabels=9CB0C8&currStreakNum=E8F0FA&sideNums=E8F0FA&dates=9CB0C8&border=183044" alt="GitHub Contribution Streak"/>
-</a>
-
-</div>
-
----
-
-### `04` — Connect & Collaborate
-
-<div align="center">
-
-| Platform | Handle / Direct Link | Purpose |
-| :--- | :--- | :--- |
-| 🌐 **Portfolio** | [indrasingh29.github.io/indra-portfolio](https://indrasingh29.github.io/indra-portfolio/) | Interactive showcase, projects & resume |
-| 💼 **LinkedIn** | [linkedin.com/in/indra-singh-jeena-1a9542216](https://www.linkedin.com/in/indra-singh-jeena-1a9542216/) | Professional networking & opportunities |
-| 💻 **GitHub** | [@indrasingh29](https://github.com/indrasingh29) | Code repositories & open-source projects |
-| ✉️ **Email** | [indrasinghjeena@gmail.com](mailto:indrasinghjeena@gmail.com) | Direct inquiries & collaboration |
-
 <br/>
 
-**BUILD WITH PURPOSE. LEARN EVERY DAY. KEEP IMPROVING.**
-
-<br/>
-
-<sub>© 2026 Indra Singh Jeena · Crafted with dark navy &amp; neon mint aesthetics</sub>
-
+<!-- Minimal Footer -->
+<div align="center">
+  <p><sub>Build. Learn. Improve. Repeat.</sub></p>
 </div>
+```
