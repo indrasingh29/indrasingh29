@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#02060B"/>
+      <stop offset="45%" stop-color="#061524"/>
+      <stop offset="85%" stop-color="#0B2238"/>
+      <stop offset="100%" stop-color="#040C16"/>
+    </linearGradient>
+
+    <!-- Mountain Fill Gradients -->
+    <linearGradient id="mountDistGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#102A45"/>
+      <stop offset="100%" stop-color="#071524"/>
+    </linearGradient>
+    <linearGradient id="mountMidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0C2035"/>
+      <stop offset="100%" stop-color="#050F1A"/>
+    </linearGradient>
+    <linearGradient id="mountForeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#081827"/>
+      <stop offset="100%" stop-color="#02070E"/>
+    </linearGradient>
+
+    <!-- Neon Accents -->
+    <linearGradient id="neonMintGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#27E6A2"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="ridgeGlowCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#27E6A2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Mist / Atmosphere -->
+    <linearGradient id="mistGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#030A12" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#030A12" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#030A12" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- Filter Glow -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#183044" stroke-width="0.5" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .title-name { font-weight: 900; font-size: 46px; letter-spacing: 2.5px; fill: #FFFFFF; }
+    .role-text { font-weight: 700; font-size: 17px; letter-spacing: 1.5px; fill: #27E6A2; }
+    .tagline-text { font-weight: 400; font-size: 15px; fill: #9CB0C8; font-style: italic; letter-spacing: 0.5px; }
+    .pill-bg { fill: #071522; stroke: #183044; stroke-width: 1; }
+    .pill-text { font-weight: 600; font-size: 11px; letter-spacing: 1.2px; fill: #27E6A2; }
+    .tech-pill-bg { fill: #0A1B2C; stroke: #183044; stroke-width: 1; }
+    .tech-pill-text { font-weight: 600; font-size: 11.5px; fill: #E8F0FA; letter-spacing: 0.5px; }
+    .nav-label { font-size: 12px; fill: #9CB0C8; letter-spacing: 1px; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" fill="url(#skyGrad)"/>
+  <rect width="1200" height="260" fill="url(#gridPattern)"/>
+
+  <!-- Stars & Celestial Dots -->
+  <g opacity="0.6">
+    <circle cx="120" cy="45" r="1.5" fill="#E8F0FA" opacity="0.7"/>
+    <circle cx="280" cy="80" r="1" fill="#22D3EE" opacity="0.8"/>
+    <circle cx="450" cy="35" r="1.5" fill="#E8F0FA" opacity="0.9"/>
+    <circle cx="620" cy="95" r="1" fill="#E8F0FA" opacity="0.6"/>
+    <circle cx="780" cy="40" r="2" fill="#27E6A2" opacity="0.7"/>
+    <circle cx="910" cy="70" r="1.5" fill="#22D3EE" opacity="0.8"/>
+    <circle cx="1060" cy="50" r="1" fill="#E8F0FA" opacity="0.6"/>
+    <circle cx="1140" cy="110" r="1.5" fill="#27E6A2" opacity="0.5"/>
+    <circle cx="210" cy="130" r="1" fill="#E8F0FA" opacity="0.4"/>
+    <circle cx="530" cy="120" r="1.5" fill="#22D3EE" opacity="0.6"/>
+    <circle cx="850" cy="130" r="1" fill="#E8F0FA" opacity="0.5"/>
+    <circle cx="990" cy="115" r="1.5" fill="#E8F0FA" opacity="0.7"/>
+    <circle cx="70" cy="100" r="1" fill="#27E6A2" opacity="0.5"/>
+  </g>
+
+  <!-- Distant Mountain Ridge -->
+  <path d="M 0 250 L 110 205 L 240 240 L 390 175 L 530 235 L 680 160 L 820 220 L 970 150 L 1090 200 L 1200 170 L 1200 420 L 0 420 Z" fill="url(#mountDistGrad)" opacity="0.75"/>
+  
+  <!-- Mid Mountain Ridge with Cyan Rim Light -->
+  <path d="M 0 280 L 140 220 L 290 265 L 430 190 L 590 255 L 740 180 L 890 230 L 1040 175 L 1200 240 L 1200 420 L 0 420 Z" fill="url(#mountMidGrad)"/>
+  <path d="M 0 280 L 140 220 L 290 265 L 430 190 L 590 255 L 740 180 L 890 230 L 1040 175 L 1200 240" fill="none" stroke="url(#ridgeGlowCyan)" stroke-width="1.8" opacity="0.65"/>
+
+  <!-- Foreground Mountain Ridge with Mint Rim Light -->
+  <path d="M 0 310 L 160 250 L 320 295 L 490 220 L 660 280 L 810 215 L 980 270 L 1120 225 L 1200 265 L 1200 420 L 0 420 Z" fill="url(#mountForeGrad)"/>
+  <path d="M 0 310 L 160 250 L 320 295 L 490 220 L 660 280 L 810 215 L 980 270 L 1120 225 L 1200 265" fill="none" stroke="url(#neonMintGrad)" stroke-width="2.2" opacity="0.85"/>
+
+  <!-- Atmospheric Valley Mist Overlay -->
+  <rect y="210" width="1200" height="210" fill="url(#mistGrad)"/>
+
+  <!-- Top Navigation & Branding Bar -->
+  <g transform="translate(48, 28)">
+    <!-- Terminal Prompt / Tag -->
+    <rect x="0" y="0" width="310" height="26" rx="6" fill="#071522" stroke="#183044" stroke-width="1"/>
+    <circle cx="14" cy="13" r="4" fill="#27E6A2"/>
+    <text x="26" y="17" class="mono" font-size="11" fill="#9CB0C8" font-weight="600">indrasingh29 // system.online</text>
+    <text x="210" y="17" class="mono" font-size="10.5" fill="#22D3EE" font-weight="700">v2.4 [MAIN]</text>
+
+    <!-- Status Badge (Right aligned) -->
+    <g transform="translate(790, 0)">
+      <rect x="0" y="0" width="314" height="26" rx="6" class="pill-bg"/>
+      <circle cx="16" cy="13" r="4.5" fill="#27E6A2">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="30" y="17" class="mono pill-text">OPEN TO INTERNSHIPS &amp; ENTRY ROLES</text>
+    </g>
+  </g>
+
+  <!-- Hero Content Center/Left Stack -->
+  <g transform="translate(64, 110)">
+    <!-- Badge -->
+    <rect x="0" y="0" width="220" height="24" rx="4" fill="#0A1E30" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="12" y="16" class="mono" font-size="10.5" font-weight="700" fill="#22D3EE" letter-spacing="1">FULL-STACK &amp; MERN ENGINEER</text>
+
+    <!-- Main Name -->
+    <text x="0" y="62" class="sans title-name">INDRA SINGH JEENA</text>
+
+    <!-- Role Statement -->
+    <text x="2" y="96" class="sans role-text">Full-Stack Developer <tspan fill="#9CB0C8">|</tspan> MERN Stack <tspan fill="#9CB0C8">|</tspan> Java &amp; DSA</text>
+
+    <!-- Tagline -->
+    <text x="2" y="126" class="sans tagline-text">“Build. Learn. Improve. Repeat.”</text>
+
+    <!-- Core Tech Pills Row -->
+    <g transform="translate(2, 150)">
+      <!-- Pill 1: React -->
+      <rect x="0" y="0" width="76" height="26" rx="5" class="tech-pill-bg"/>
+      <text x="38" y="17" text-anchor="middle" class="sans tech-pill-text">⚛ React</text>
+
+      <!-- Pill 2: Node.js -->
+      <rect x="84" y="0" width="86" height="26" rx="5" class="tech-pill-bg"/>
+      <text x="127" y="17" text-anchor="middle" class="sans tech-pill-text">⚡ Node.js</text>
+
+      <!-- Pill 3: Express -->
+      <rect x="178" y="0" width="86" height="26" rx="5" class="tech-pill-bg"/>
+      <text x="221" y="17" text-anchor="middle" class="sans tech-pill-text">🚂 Express</text>
+
+      <!-- Pill 4: MongoDB -->
+      <rect x="272" y="0" width="94" height="26" rx="5" class="tech-pill-bg"/>
+      <text x="319" y="17" text-anchor="middle" class="sans tech-pill-text">🍃 MongoDB</text>
+
+      <!-- Pill 5: Java & DSA -->
+      <rect x="374" y="0" width="102" height="26" rx="5" class="tech-pill-bg"/>
+      <text x="425" y="17" text-anchor="middle" class="sans tech-pill-text">☕ Java &amp; DSA</text>
+
+      <!-- Pill 6: Python -->
+      <rect x="484" y="0" width="84" height="26" rx="5" class="tech-pill-bg"/>
+      <text x="526" y="17" text-anchor="middle" class="sans tech-pill-text">🐍 Python</text>
+
+      <!-- Pill 7: Docker -->
+      <rect x="576" y="0" width="84" height="26" rx="5" class="tech-pill-bg"/>
+      <text x="618" y="17" text-anchor="middle" class="sans tech-pill-text">🐳 Docker</text>
+    </g>
+
+    <!-- Quick Education / Location Note -->
+    <g transform="translate(2, 198)">
+      <text x="0" y="14" class="mono" font-size="11.5" fill="#9CB0C8">🎓 B.Tech CSE (Pursuing)  ·  📍 India  ·  🌐 Portfolio &amp; Repositories Below</text>
+    </g>
+  </g>
+
+  <!-- Right Side Decorative HUD / Metrics Graphic -->
+  <g transform="translate(860, 100)">
+    <!-- Decorative Frame -->
+    <rect x="0" y="0" width="280" height="200" rx="10" fill="#061524" fill-opacity="0.85" stroke="#183044" stroke-width="1.5"/>
+    <rect x="0" y="0" width="280" height="26" rx="10" fill="#0B2035" stroke="#183044" stroke-width="1"/>
+    
+    <!-- Window Dots -->
+    <circle cx="16" cy="13" r="4" fill="#FF5F56"/>
+    <circle cx="28" cy="13" r="4" fill="#FFBD2E"/>
+    <circle cx="40" cy="13" r="4" fill="#27C93F"/>
+    <text x="60" y="17" class="mono" font-size="10.5" fill="#9CB0C8">developer_specs.json</text>
+
+    <!-- JSON Specs -->
+    <g transform="translate(18, 50)" class="mono" font-size="11.5">
+      <text x="0" y="0" fill="#22D3EE">"developer": <tspan fill="#E8F0FA">"Indra Singh"</tspan>,</text>
+      <text x="0" y="24" fill="#22D3EE">"education": <tspan fill="#E8F0FA">"B.Tech CSE"</tspan>,</text>
+      <text x="0" y="48" fill="#22D3EE">"specialization": <tspan fill="#27E6A2">"MERN Stack"</tspan>,</text>
+      <text x="0" y="72" fill="#22D3EE">"algorithms": <tspan fill="#27E6A2">"Java + DSA"</tspan>,</text>
+      <text x="0" y="96" fill="#22D3EE">"status": <tspan fill="#27E6A2">"Open to Hire"</tspan>,</text>
+      <text x="0" y="120" fill="#22D3EE">"verified_projects": <tspan fill="#E8F0FA">4</tspan></text>
+    </g>
+
+    <!-- Bottom Glow Bar inside card -->
+    <rect x="18" y="184" width="244" height="2" fill="url(#neonMintGrad)"/>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="417" width="1200" height="3" fill="url(#neonMintGrad)"/>
+</svg>

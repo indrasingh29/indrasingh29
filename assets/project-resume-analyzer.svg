@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081A2C"/>
+      <stop offset="100%" stop-color="#030C16"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#27E6A2"/>
+    </linearGradient>
+    <pattern id="cardGrid4" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#183044" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="600" height="260" rx="12" fill="url(#cardBg4)" stroke="#183044" stroke-width="1.5"/>
+  <rect width="600" height="260" rx="12" fill="url(#cardGrid4)"/>
+
+  <!-- Top Window Header -->
+  <rect width="600" height="36" rx="12" fill="#0A2035" stroke="#183044" stroke-width="1"/>
+  <rect y="24" width="600" height="12" fill="#0A2035"/>
+  <circle cx="22" cy="18" r="4.5" fill="#FF5F56"/>
+  <circle cx="36" cy="18" r="4.5" fill="#FFBD2E"/>
+  <circle cx="50" cy="18" r="4.5" fill="#27C93F"/>
+  <text x="70" y="22" class="mono" font-size="11" fill="#9CB0C8">ai-resume-analyzer // nextjs-ats</text>
+
+  <!-- Status Pill -->
+  <rect x="420" y="8" width="164" height="20" rx="10" fill="#061826" stroke="#22D3EE" stroke-width="1"/>
+  <circle cx="432" cy="18" r="3.5" fill="#22D3EE"/>
+  <text x="442" y="22" class="mono" font-size="9.5" fill="#22D3EE" font-weight="700">RENDER BLUEPRINT</text>
+
+  <!-- Project Icon / Graphic (Left side) -->
+  <g transform="translate(36, 64)">
+    <rect width="90" height="90" rx="16" fill="#0A2238" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.8"/>
+    <!-- Document & AI Neural Scanner Icon -->
+    <rect x="26" y="24" width="38" height="48" rx="4" fill="none" stroke="#22D3EE" stroke-width="2"/>
+    <line x1="32" y1="34" x2="58" y2="34" stroke="#27E6A2" stroke-width="2"/>
+    <line x1="32" y1="42" x2="52" y2="42" stroke="#9CB0C8" stroke-width="1.5"/>
+    <line x1="32" y1="50" x2="58" y2="50" stroke="#9CB0C8" stroke-width="1.5"/>
+    <circle cx="45" cy="60" r="3.5" fill="#27E6A2"/>
+    <!-- Laser Scan Bar -->
+    <line x1="22" y1="45" x2="68" y2="45" stroke="#27E6A2" stroke-width="1.5" stroke-opacity="0.7"/>
+    <circle cx="45" cy="45" r="32" fill="none" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.25"/>
+  </g>
+
+  <!-- Project Info (Right of Icon) -->
+  <g transform="translate(144, 66)">
+    <!-- Badge -->
+    <rect x="0" y="0" width="190" height="20" rx="4" fill="#061D2E" stroke="#22D3EE" stroke-width="0.8"/>
+    <text x="8" y="14" class="mono" font-size="10" fill="#22D3EE" font-weight="700">NEXT.JS · NODE · ATS SCORING</text>
+
+    <!-- Project Name -->
+    <text x="0" y="44" class="sans" font-size="22" font-weight="800" fill="#FFFFFF">AI Resume Analyzer</text>
+
+    <!-- Description -->
+    <text x="0" y="68" class="sans" font-size="12.5" fill="#9CB0C8">Automated ATS Optimization &amp; Interview Question Gen</text>
+
+    <!-- Metrics / Key Highlights -->
+    <g transform="translate(0, 84)">
+      <rect x="0" y="0" width="134" height="22" rx="4" fill="#0A2136"/>
+      <text x="6" y="15" class="mono" font-size="10" fill="#27E6A2">✓ Instant ATS Score</text>
+
+      <rect x="142" y="0" width="144" height="22" rx="4" fill="#0A2136"/>
+      <text x="148" y="15" class="mono" font-size="10" fill="#27E6A2">✓ Keyword Gap Detector</text>
+
+      <rect x="294" y="0" width="124" height="22" rx="4" fill="#0A2136"/>
+      <text x="300" y="15" class="mono" font-size="10" fill="#27E6A2">✓ JWT Dashboard</text>
+    </g>
+  </g>
+
+  <!-- Bottom Tech Bar -->
+  <g transform="translate(36, 212)">
+    <text x="0" y="16" class="mono" font-size="11" fill="#9CB0C8">STACK:</text>
+    <rect x="52" y="0" width="76" height="24" rx="4" fill="#0A2238" stroke="#183044" stroke-width="1"/>
+    <text x="90" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E8F0FA">Next.js</text>
+
+    <rect x="134" y="0" width="70" height="24" rx="4" fill="#0A2238" stroke="#183044" stroke-width="1"/>
+    <text x="169" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E8F0FA">Node.js</text>
+
+    <rect x="210" y="0" width="80" height="24" rx="4" fill="#0A2238" stroke="#183044" stroke-width="1"/>
+    <text x="250" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E8F0FA">Express</text>
+
+    <rect x="296" y="0" width="84" height="24" rx="4" fill="#0A2238" stroke="#183044" stroke-width="1"/>
+    <text x="338" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E8F0FA">MongoDB</text>
+
+    <rect x="386" y="0" width="84" height="24" rx="4" fill="#0A2238" stroke="#183044" stroke-width="1"/>
+    <text x="428" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E8F0FA">Tailwind</text>
+
+    <rect x="476" y="0" width="88" height="24" rx="4" fill="#0A2238" stroke="#183044" stroke-width="1"/>
+    <text x="520" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#22D3EE">Docker</text>
+  </g>
+
+  <!-- Accent bottom glow line -->
+  <rect x="0" y="257" width="600" height="3" fill="url(#cyanGrad4)"/>
+</svg>
