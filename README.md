@@ -58,7 +58,7 @@
 <h3>&lt;/&gt; Tech Stack</h3>
 <p><strong>Languages</strong></p>
 <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=java,js,python,html,css&theme=dark" alt="Languages: Java, JavaScript, Python, HTML5, CSS3" />
+<img src="https://skillicons.dev/icons?i=java,js,python,html,css&theme=dark" alt="Languages: Java, JavaScript,  HTML5, CSS3" />
 </a>
 <p><strong>Frontend &amp; Backend</strong></p>
 <a href="https://skillicons.dev">
