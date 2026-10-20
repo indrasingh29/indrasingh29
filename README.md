@@ -1,121 +1,150 @@
-<!--
-  GitHub Profile README
-  Repository: indrasingh29/indrasingh29
--->
-
 <div align="center">
 
-# Hi, I'm Indra Singh Jeena 👋
-
-### Full-Stack Developer | MERN Stack | Java & DSA
-
-Building practical web applications, solving problems, and growing as a software developer.
+<a href="https://github.com/indrasingh29">
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:07111f,50:064e3b,100:0f172a&text=INDRA%20SINGH%20JEENA&fontColor=ecfdf5&fontSize=38&fontAlignY=43&desc=FULL-STACK%20DEVELOPER%20%7C%20MERN%20%7C%20JAVA%20%26%20DSA&descSize=14&descAlignY=61&stroke=34d399&strokeWidth=1" width="100%" alt="Indra Singh Jeena — Full-Stack Developer"/>
+</a>
 
 <a href="https://indrasingh29.github.io/indra-portfolio/">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0D9488?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/PORTFOLIO-34D399?style=for-the-badge&logo=googlechrome&logoColor=07111f" alt="Portfolio"/>
 </a>
 <a href="https://www.linkedin.com/in/indra-singh-jeena-1a9542216/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="mailto:indrasinghjeena@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/CONTACT-111827?style=for-the-badge&logo=gmail&logoColor=34D399" alt="Contact"/>
 </a>
+
+<br/>
+
+*Turning ideas into applications. Turning learning into progress.*
 
 </div>
 
 ---
 
-## About Me
+## `01` — The Developer
 
-I'm a Computer Science Engineering student focused on full-stack web development and software engineering fundamentals.
+```text
+Name       → Indra Singh Jeena
+Role       → Full-Stack Developer
+Focus      → MERN Stack · Java · DSA
+Currently  → Building projects & sharpening fundamentals
+```
 
-- 💻 Building web applications with the **MERN stack**.
-- 🧠 Practising **Data Structures & Algorithms using Java**.
-- 🐍 Exploring Python and strengthening programming fundamentals.
-- 🛠️ Interested in REST APIs, database design, and building useful software.
-- 🎯 Working towards becoming a well-rounded Full-Stack Developer.
-- 🤝 Open to software development internships, entry-level opportunities, and meaningful collaboration.
+I'm a Computer Science Engineering student focused on building practical web applications and developing strong software engineering fundamentals.
 
-I believe in learning by building, writing maintainable code, and improving through practical experience.
+I enjoy working across the frontend and backend, exploring how applications work end to end, and solving problems through code.
 
-## Tech Stack
+- Building full-stack applications with the MERN stack.
+- Practising Data Structures & Algorithms in Java.
+- Exploring Python and backend development.
+- Interested in internships, entry-level developer roles, and collaboration.
+
+## `02` — Technologies
 
 <div align="center">
 
-**Languages**
+**LANGUAGES**
 
-<img src="https://skillicons.dev/icons?i=java,js,python,html,css" alt="Java, JavaScript, Python, HTML, CSS"/>
+<img src="https://skillicons.dev/icons?i=java,js,python,html,css" alt="Java, JavaScript, Python, HTML and CSS"/>
 
-**Frontend & Backend**
+**FULL-STACK DEVELOPMENT**
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express" alt="React, Node.js, Express.js"/>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,mysql" alt="React, Node.js, Express, MongoDB and MySQL"/>
 
-**Databases & Developer Tools**
+**TOOLS**
 
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,git,github,vscode,idea,docker" alt="MongoDB, MySQL, Git, GitHub, VS Code, IntelliJ IDEA, Docker"/>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,docker" alt="Git, GitHub, VS Code, IntelliJ IDEA and Docker"/>
 
 </div>
 
-## Featured Projects
+## `03` — Selected Projects
 
-### 1. Job & Internship Portal
-A full-stack project focused on connecting job seekers with job and internship opportunities.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Focus:** Full-stack development, job listings, and role-based workflows.
-- **Stack:** MERN
-- **Repository:** [View on GitHub](https://github.com/indrasingh29/job-internship-portal)
+### Job & Internship Portal
 
-### 2. Developer Portfolio
-A personal website showcasing my developer profile, projects, and professional links.
+A MERN-stack platform focused on job and internship discovery.
 
-- **Focus:** Personal branding and project presentation.
-- **Live Website:** [Visit Portfolio](https://indrasingh29.github.io/indra-portfolio/)
-- **Repository:** [Explore My Repositories](https://github.com/indrasingh29?tab=repositories)
+`MERN` `Web Development`
 
-### 3. QuickKart
-A project focused on building an e-commerce experience.
+[↗ View Repository](https://github.com/indrasingh29/job-internship-portal)
 
-- **Focus:** Shopping workflows and web application development.
-- **Repository:** [Explore My Repositories](https://github.com/indrasingh29?tab=repositories)
+</td>
+<td width="50%" valign="top">
 
-### 4. AI Resume Analyzer
-A project focused on exploring AI-assisted resume analysis and career-related tooling.
+### Developer Portfolio
 
-- **Focus:** Resume analysis and practical application development.
-- **Repository:** [Explore My Repositories](https://github.com/indrasingh29?tab=repositories)
+My personal space to present my profile, projects, and developer journey.
 
-## GitHub Analytics
+`Portfolio` `Web Design`
+
+[↗ Live Website](https://indrasingh29.github.io/indra-portfolio/)
+
+[↗ GitHub Repositories](https://github.com/indrasingh29?tab=repositories)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### QuickKart
+
+An e-commerce project focused on shopping and product discovery.
+
+`E-commerce` `Web Development`
+
+[↗ Find Repository](https://github.com/indrasingh29?tab=repositories)
+
+</td>
+<td width="50%" valign="top">
+
+### AI Resume Analyzer
+
+A project exploring AI-assisted resume analysis and career tooling.
+
+`AI` `Resume Analysis`
+
+[↗ Find Repository](https://github.com/indrasingh29?tab=repositories)
+
+</td>
+</tr>
+</table>
+
+## `04` — GitHub Analytics
 
 <div align="center">
 
 <a href="https://github.com/indrasingh29">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=indrasingh29&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub profile statistics"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=indrasingh29&show_icons=true&hide_border=true&bg_color=07111f&title_color=34d399&icon_color=34d399&text_color=e5e7eb&rank_icon=github" alt="GitHub statistics"/>
 </a>
 <a href="https://github.com/indrasingh29">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrasingh29&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Most used programming languages"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=indrasingh29&layout=compact&hide_border=true&bg_color=07111f&title_color=34d399&text_color=e5e7eb&langs_count=6" alt="Most used languages"/>
 </a>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=indrasingh29&theme=transparent&hide_border=true" alt="GitHub contribution streak"/>
-
-</div>
-
-*Stats are generated dynamically and may depend on the availability and configuration of the external services.*
-
-## Let's Connect
-
-I'm always interested in learning from other developers, discussing ideas, and collaborating on useful projects.
-
-<div align="center">
-
-<a href="https://github.com/indrasingh29">GitHub</a> •
-<a href="https://www.linkedin.com/in/indra-singh-jeena-1a9542216/">LinkedIn</a> •
-<a href="https://indrasingh29.github.io/indra-portfolio/">Portfolio</a> •
-<a href="mailto:indrasinghjeena@gmail.com">Email</a>
 
 <br/><br/>
 
-**Build. Learn. Improve. Repeat.**
+<img src="https://streak-stats.demolab.com?user=indrasingh29&hide_border=true&background=07111f&ring=34d399&fire=34d399&currStreakLabel=34d399&sideLabels=e5e7eb&currStreakNum=e5e7eb&sideNums=e5e7eb&dates=94a3b8" alt="GitHub contribution streak"/>
+
+</div>
+
+## `05` — Connect
+
+<div align="center">
+
+| Platform | Link |
+|:--|:--|
+| GitHub | [@indrasingh29](https://github.com/indrasingh29) |
+| LinkedIn | [Connect professionally](https://www.linkedin.com/in/indra-singh-jeena-1a9542216/) |
+| Portfolio | [Explore my work](https://indrasingh29.github.io/indra-portfolio/) |
+| Email | [indrasinghjeena@gmail.com](mailto:indrasinghjeena@gmail.com) |
+
+<br/>
+
+**BUILD WITH PURPOSE. LEARN EVERY DAY. KEEP IMPROVING.**
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=34d399" width="70%" alt=""/>
 
 </div>
