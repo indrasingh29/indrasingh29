@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 <!-- Top Navigation & Status Bar -->
@@ -17,7 +16,7 @@
 
 <!-- Cinematic Mountain Hero Banner -->
 <a href="https://github.com/indrasingh29">
-  <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/hero-banner.svg" width="100%" alt="Indra Singh Jeena — Cinematic Mountain Hero Banner" />
+  <img src="assets/hero-banner.svg" width="100%" alt="Indra Singh Jeena — Cinematic Mountain Hero Banner" />
 </a>
 
 <br/><br/>
@@ -116,7 +115,7 @@
     <!-- Project 1: Job & Internship Portal -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/job-internship-portal">
-        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-job-portal.svg" width="100%" alt="Job & Internship Portal" />
+        <img src="assets/project-job-portal.svg" width="100%" alt="Job & Internship Portal" />
       </a>
       <br/><br/>
       <table width="100%" style="border: none;">
@@ -148,7 +147,7 @@
     <!-- Project 2: Developer Portfolio -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/indra-portfolio">
-        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-portfolio.svg" width="100%" alt="Developer Portfolio" />
+        <img src="assets/project-portfolio.svg" width="100%" alt="Developer Portfolio" />
       </a>
       <br/><br/>
       <table width="100%" style="border: none;">
@@ -182,7 +181,7 @@
     <!-- Project 3: QuickKart -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/quickkart">
-        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-quickkart.svg" width="100%" alt="QuickKart" />
+        <img src="assets/project-quickkart.svg" width="100%" alt="QuickKart" />
       </a>
       <br/><br/>
       <table width="100%" style="border: none;">
@@ -214,7 +213,7 @@
     <!-- Project 4: AI Resume Analyzer -->
     <td width="50%" valign="top">
       <a href="https://github.com/indrasingh29/ai-resume-analyzer">
-        <img src="https://raw.githubusercontent.com/indrasingh29/indrasingh29/main/assets/project-resume-analyzer.svg" width="100%" alt="AI Resume Analyzer" />
+        <img src="assets/project-resume-analyzer.svg" width="100%" alt="AI Resume Analyzer" />
       </a>
       <br/><br/>
       <table width="100%" style="border: none;">
@@ -298,4 +297,3 @@
 <div align="center">
   <p><sub>Build. Learn. Improve. Repeat.</sub></p>
 </div>
-```

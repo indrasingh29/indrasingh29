@@ -1,200 +1,210 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#02060B"/>
-      <stop offset="45%" stop-color="#061524"/>
-      <stop offset="85%" stop-color="#0B2238"/>
-      <stop offset="100%" stop-color="#040C16"/>
+    <linearGradient id="heroSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020710"/>
+      <stop offset="40%" stop-color="#061628"/>
+      <stop offset="75%" stop-color="#0B233D"/>
+      <stop offset="100%" stop-color="#040C18"/>
     </linearGradient>
 
-    <!-- Mountain Fill Gradients -->
-    <linearGradient id="mountDistGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#102A45"/>
-      <stop offset="100%" stop-color="#071524"/>
+    <!-- Mountain Gradients -->
+    <linearGradient id="mountFar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#143454"/>
+      <stop offset="100%" stop-color="#081829"/>
     </linearGradient>
-    <linearGradient id="mountMidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0C2035"/>
-      <stop offset="100%" stop-color="#050F1A"/>
+    <linearGradient id="mountMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A4269"/>
+      <stop offset="50%" stop-color="#0E2741"/>
+      <stop offset="100%" stop-color="#05121F"/>
     </linearGradient>
-    <linearGradient id="mountForeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#081827"/>
-      <stop offset="100%" stop-color="#02070E"/>
-    </linearGradient>
-
-    <!-- Neon Accents -->
-    <linearGradient id="neonMintGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#27E6A2"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
-    </linearGradient>
-    <linearGradient id="ridgeGlowCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#27E6A2" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.2"/>
+    <linearGradient id="mountSnow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="60%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#0284C7"/>
     </linearGradient>
 
-    <!-- Mist / Atmosphere -->
-    <linearGradient id="mistGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#030A12" stop-opacity="0"/>
-      <stop offset="60%" stop-color="#030A12" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#030A12" stop-opacity="0.98"/>
+    <!-- Glowing Rim Gradients -->
+    <linearGradient id="cyanMintGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#27E6A2"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
 
-    <!-- Filter Glow -->
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <!-- Subtle Fog Gradient -->
+    <linearGradient id="fogGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#030A14" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#030A14" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#030A14" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- Circular Avatar Clip -->
+    <clipPath id="avatarClip">
+      <circle cx="130" cy="205" r="82"/>
+    </clipPath>
+
+    <!-- Handwritten Font Shadow -->
+    <filter id="mintGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
-
-    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#183044" stroke-width="0.5" stroke-opacity="0.35"/>
-    </pattern>
   </defs>
 
   <style>
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
-    .title-name { font-weight: 900; font-size: 46px; letter-spacing: 2.5px; fill: #FFFFFF; }
-    .role-text { font-weight: 700; font-size: 17px; letter-spacing: 1.5px; fill: #27E6A2; }
-    .tagline-text { font-weight: 400; font-size: 15px; fill: #9CB0C8; font-style: italic; letter-spacing: 0.5px; }
-    .pill-bg { fill: #071522; stroke: #183044; stroke-width: 1; }
-    .pill-text { font-weight: 600; font-size: 11px; letter-spacing: 1.2px; fill: #27E6A2; }
-    .tech-pill-bg { fill: #0A1B2C; stroke: #183044; stroke-width: 1; }
-    .tech-pill-text { font-weight: 600; font-size: 11.5px; fill: #E8F0FA; letter-spacing: 0.5px; }
-    .nav-label { font-size: 12px; fill: #9CB0C8; letter-spacing: 1px; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .hand { font-family: "Caveat", "Brush Script MT", "Segoe Script", "Comic Sans MS", cursive, sans-serif; font-style: italic; }
   </style>
 
-  <!-- Canvas Background -->
-  <rect width="1200" height="420" fill="url(#skyGrad)"/>
-  <rect width="1200" height="260" fill="url(#gridPattern)"/>
+  <!-- Sky & Stars Background -->
+  <rect width="1200" height="420" fill="url(#heroSky)"/>
 
-  <!-- Stars & Celestial Dots -->
-  <g opacity="0.6">
-    <circle cx="120" cy="45" r="1.5" fill="#E8F0FA" opacity="0.7"/>
-    <circle cx="280" cy="80" r="1" fill="#22D3EE" opacity="0.8"/>
-    <circle cx="450" cy="35" r="1.5" fill="#E8F0FA" opacity="0.9"/>
-    <circle cx="620" cy="95" r="1" fill="#E8F0FA" opacity="0.6"/>
-    <circle cx="780" cy="40" r="2" fill="#27E6A2" opacity="0.7"/>
-    <circle cx="910" cy="70" r="1.5" fill="#22D3EE" opacity="0.8"/>
-    <circle cx="1060" cy="50" r="1" fill="#E8F0FA" opacity="0.6"/>
-    <circle cx="1140" cy="110" r="1.5" fill="#27E6A2" opacity="0.5"/>
-    <circle cx="210" cy="130" r="1" fill="#E8F0FA" opacity="0.4"/>
-    <circle cx="530" cy="120" r="1.5" fill="#22D3EE" opacity="0.6"/>
-    <circle cx="850" cy="130" r="1" fill="#E8F0FA" opacity="0.5"/>
-    <circle cx="990" cy="115" r="1.5" fill="#E8F0FA" opacity="0.7"/>
-    <circle cx="70" cy="100" r="1" fill="#27E6A2" opacity="0.5"/>
+  <!-- Stars -->
+  <g opacity="0.65">
+    <circle cx="180" cy="45" r="1.5" fill="#E8F0FA"/>
+    <circle cx="340" cy="30" r="1" fill="#38BDF8"/>
+    <circle cx="510" cy="55" r="1.5" fill="#FFFFFF"/>
+    <circle cx="680" cy="35" r="1" fill="#27E6A2"/>
+    <circle cx="820" cy="60" r="1.5" fill="#38BDF8"/>
+    <circle cx="950" cy="40" r="2" fill="#FFFFFF"/>
+    <circle cx="1060" cy="70" r="1" fill="#27E6A2"/>
+    <circle cx="1140" cy="35" r="1.5" fill="#FFFFFF"/>
+    <circle cx="880" cy="110" r="1" fill="#E8F0FA"/>
+    <circle cx="730" cy="95" r="1.2" fill="#38BDF8"/>
   </g>
 
-  <!-- Distant Mountain Ridge -->
-  <path d="M 0 250 L 110 205 L 240 240 L 390 175 L 530 235 L 680 160 L 820 220 L 970 150 L 1090 200 L 1200 170 L 1200 420 L 0 420 Z" fill="url(#mountDistGrad)" opacity="0.75"/>
-  
-  <!-- Mid Mountain Ridge with Cyan Rim Light -->
-  <path d="M 0 280 L 140 220 L 290 265 L 430 190 L 590 255 L 740 180 L 890 230 L 1040 175 L 1200 240 L 1200 420 L 0 420 Z" fill="url(#mountMidGrad)"/>
-  <path d="M 0 280 L 140 220 L 290 265 L 430 190 L 590 255 L 740 180 L 890 230 L 1040 175 L 1200 240" fill="none" stroke="url(#ridgeGlowCyan)" stroke-width="1.8" opacity="0.65"/>
+  <!-- Distant Background Mountain Silhouettes (Right & Center) -->
+  <path d="M 450 320 L 580 210 L 670 260 L 780 160 L 890 230 L 1000 130 L 1110 200 L 1200 150 L 1200 420 L 450 420 Z" fill="url(#mountFar)" opacity="0.85"/>
+  <path d="M 780 160 L 805 195 L 830 185 L 890 230 L 920 200 L 1000 130 L 1030 170 L 1080 155 L 1110 200" fill="none" stroke="#7DD3FC" stroke-width="1.2" opacity="0.4"/>
 
-  <!-- Foreground Mountain Ridge with Mint Rim Light -->
-  <path d="M 0 310 L 160 250 L 320 295 L 490 220 L 660 280 L 810 215 L 980 270 L 1120 225 L 1200 265 L 1200 420 L 0 420 Z" fill="url(#mountForeGrad)"/>
-  <path d="M 0 310 L 160 250 L 320 295 L 490 220 L 660 280 L 810 215 L 980 270 L 1120 225 L 1200 265" fill="none" stroke="url(#neonMintGrad)" stroke-width="2.2" opacity="0.85"/>
+  <!-- Midground Mountains with Snow Ridges -->
+  <path d="M 520 360 L 650 250 L 760 300 L 880 190 L 990 260 L 1100 170 L 1200 230 L 1200 420 L 520 420 Z" fill="url(#mountMid)"/>
 
-  <!-- Atmospheric Valley Mist Overlay -->
-  <rect y="210" width="1200" height="210" fill="url(#mistGrad)"/>
+  <!-- Snow Highlights on Peaks -->
+  <polygon points="880,190 855,230 870,225 880,240 905,215" fill="url(#mountSnow)" opacity="0.75"/>
+  <polygon points="1100,170 1075,210 1090,205 1105,225 1125,195" fill="url(#mountSnow)" opacity="0.8"/>
+  <polygon points="650,250 635,275 645,270 655,285 668,268" fill="url(#mountSnow)" opacity="0.6"/>
 
-  <!-- Top Navigation & Branding Bar -->
-  <g transform="translate(48, 28)">
-    <!-- Terminal Prompt / Tag -->
-    <rect x="0" y="0" width="310" height="26" rx="6" fill="#071522" stroke="#183044" stroke-width="1"/>
-    <circle cx="14" cy="13" r="4" fill="#27E6A2"/>
-    <text x="26" y="17" class="mono" font-size="11" fill="#9CB0C8" font-weight="600">indrasingh29 // system.online</text>
-    <text x="210" y="17" class="mono" font-size="10.5" fill="#22D3EE" font-weight="700">v2.4 [MAIN]</text>
+  <!-- Glowing Ridge Lines -->
+  <path d="M 650 250 L 760 300 L 880 190 L 990 260 L 1100 170 L 1200 230" fill="none" stroke="url(#cyanMintGlow)" stroke-width="2" opacity="0.6"/>
 
-    <!-- Status Badge (Right aligned) -->
-    <g transform="translate(790, 0)">
-      <rect x="0" y="0" width="314" height="26" rx="6" class="pill-bg"/>
-      <circle cx="16" cy="13" r="4.5" fill="#27E6A2">
-        <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/>
-      </circle>
-      <text x="30" y="17" class="mono pill-text">OPEN TO INTERNSHIPS &amp; ENTRY ROLES</text>
-    </g>
+  <!-- Atmosphere / Fog Overlay at base -->
+  <rect y="240" width="1200" height="180" fill="url(#fogGrad)"/>
+
+  <!-- ================= LEFT: CIRCULAR AVATAR ================= -->
+  <!-- Outer Glow Ring -->
+  <circle cx="130" cy="205" r="88" fill="none" stroke="url(#cyanMintGlow)" stroke-width="3.5" filter="url(#mintGlow)"/>
+  <circle cx="130" cy="205" r="84" fill="#040D18"/>
+
+  <!-- Mountain Artwork Inside Avatar -->
+  <g clip-path="url(#avatarClip)">
+    <rect x="40" y="115" width="180" height="180" fill="#0A223B"/>
+    <!-- Avatar Sky -->
+    <path d="M 40 220 L 90 175 L 120 195 L 150 145 L 180 185 L 220 150 L 220 300 L 40 300 Z" fill="#0E2F52"/>
+    <!-- Avatar Main Mountain Peak -->
+    <polygon points="130,135 70,245 190,245" fill="#143C66"/>
+    <!-- Snow Cap Left Face -->
+    <polygon points="130,135 105,185 130,175 125,200 130,245 70,245" fill="#38BDF8" opacity="0.9"/>
+    <!-- Snow Cap Right Sunlight -->
+    <polygon points="130,135 150,180 138,190 155,210 130,245 190,245" fill="#E0F2FE"/>
+    <!-- Ridge Line Crest -->
+    <path d="M 130 135 L 132 170 L 126 195 L 130 245" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="170" cy="145" r="1.5" fill="#FFFFFF"/>
+    <circle cx="85" cy="155" r="1" fill="#7DD3FC"/>
   </g>
 
-  <!-- Hero Content Center/Left Stack -->
-  <g transform="translate(64, 110)">
-    <!-- Badge -->
-    <rect x="0" y="0" width="220" height="24" rx="4" fill="#0A1E30" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.5"/>
-    <text x="12" y="16" class="mono" font-size="10.5" font-weight="700" fill="#22D3EE" letter-spacing="1">FULL-STACK &amp; MERN ENGINEER</text>
+  <!-- ================= CENTER: HERO TEXT & BADGES ================= -->
+  <g transform="translate(248, 85)">
+    <!-- Hi, I'm -->
+    <text x="0" y="32" class="sans" font-size="20" font-weight="500" fill="#CBD5E1" letter-spacing="0.5">Hi, I'm</text>
 
-    <!-- Main Name -->
-    <text x="0" y="62" class="sans title-name">INDRA SINGH JEENA</text>
+    <!-- Name: Indra Singh Jeena -->
+    <text x="0" y="80" class="sans" font-size="44" font-weight="900" letter-spacing="1">
+      <tspan fill="#FFFFFF">Indra </tspan>
+      <tspan fill="#27E6A2">Singh </tspan>
+      <tspan fill="#38BDF8">Jeena</tspan>
+    </text>
 
     <!-- Role Statement -->
-    <text x="2" y="96" class="sans role-text">Full-Stack Developer <tspan fill="#9CB0C8">|</tspan> MERN Stack <tspan fill="#9CB0C8">|</tspan> Java &amp; DSA</text>
+    <text x="0" y="116" class="sans" font-size="16.5" font-weight="600" fill="#E2E8F0" letter-spacing="0.8">
+      Full-Stack Developer <tspan fill="#64748B">|</tspan> MERN Stack <tspan fill="#64748B">|</tspan> Java &amp; DSA
+    </text>
 
-    <!-- Tagline -->
-    <text x="2" y="126" class="sans tagline-text">“Build. Learn. Improve. Repeat.”</text>
+    <!-- Bio Description -->
+    <text x="0" y="150" class="sans" font-size="13.5" fill="#94A3B8" font-weight="400">
+      <tspan x="0" dy="0">I'm a Computer Science Engineering student passionate about</tspan>
+      <tspan x="0" dy="20">building modern web applications, solving real-world problems,</tspan>
+      <tspan x="0" dy="20">and growing as a developer.</tspan>
+    </text>
 
-    <!-- Core Tech Pills Row -->
-    <g transform="translate(2, 150)">
-      <!-- Pill 1: React -->
-      <rect x="0" y="0" width="76" height="26" rx="5" class="tech-pill-bg"/>
-      <text x="38" y="17" text-anchor="middle" class="sans tech-pill-text">⚛ React</text>
+    <!-- 4 Social Action Buttons (Exact Recreation of Reference) -->
+    <g transform="translate(0, 222)">
+      <!-- 1. Portfolio Button (Mint Outline) -->
+      <a href="https://indrasingh29.github.io/indra-portfolio/">
+        <rect x="0" y="0" width="112" height="34" rx="8" fill="#04201A" stroke="#27E6A2" stroke-width="1.5"/>
+        <!-- Web / Screen Icon -->
+        <g transform="translate(14, 9)">
+          <rect x="0" y="0" width="16" height="12" rx="2" fill="none" stroke="#27E6A2" stroke-width="1.5"/>
+          <line x1="0" y1="4" x2="16" y2="4" stroke="#27E6A2" stroke-width="1"/>
+          <circle cx="3" cy="2" r="0.8" fill="#27E6A2"/>
+          <circle cx="6" cy="2" r="0.8" fill="#27E6A2"/>
+          <line x1="5" y1="15" x2="11" y2="15" stroke="#27E6A2" stroke-width="1.5"/>
+          <line x1="8" y1="12" x2="8" y2="15" stroke="#27E6A2" stroke-width="1.5"/>
+        </g>
+        <text x="38" y="22" class="sans" font-size="12.5" font-weight="700" fill="#27E6A2">Portfolio</text>
+      </a>
 
-      <!-- Pill 2: Node.js -->
-      <rect x="84" y="0" width="86" height="26" rx="5" class="tech-pill-bg"/>
-      <text x="127" y="17" text-anchor="middle" class="sans tech-pill-text">⚡ Node.js</text>
+      <!-- 2. LinkedIn Button (Blue) -->
+      <a href="https://www.linkedin.com/in/indra-singh-jeena-1a9542216">
+        <g transform="translate(124, 0)">
+          <rect x="0" y="0" width="112" height="34" rx="8" fill="#0A66C2"/>
+          <!-- LinkedIn in Icon -->
+          <g transform="translate(14, 9)">
+            <rect x="0" y="0" width="15" height="15" rx="3" fill="#FFFFFF"/>
+            <text x="7.5" y="11.5" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="900" fill="#0A66C2">in</text>
+          </g>
+          <text x="38" y="22" class="sans" font-size="12.5" font-weight="700" fill="#FFFFFF">LinkedIn</text>
+        </g>
+      </a>
 
-      <!-- Pill 3: Express -->
-      <rect x="178" y="0" width="86" height="26" rx="5" class="tech-pill-bg"/>
-      <text x="221" y="17" text-anchor="middle" class="sans tech-pill-text">🚂 Express</text>
+      <!-- 3. GitHub Button (Dark Navy) -->
+      <a href="https://github.com/indrasingh29">
+        <g transform="translate(248, 0)">
+          <rect x="0" y="0" width="104" height="34" rx="8" fill="#091A2B" stroke="#1E3A52" stroke-width="1.2"/>
+          <!-- Octocat Icon -->
+          <g transform="translate(14, 8)">
+            <path d="M 8 0 C 3.58 0 0 3.58 0 8 C 0 11.54 2.29 14.53 5.47 15.59 C 5.87 15.66 6.02 15.42 6.02 15.21 C 6.02 15.02 6.01 14.39 6.01 13.72 C 4 14.09 3.48 13.23 3.32 12.78 C 3.23 12.55 2.84 11.84 2.5 11.65 C 2.22 11.5 1.82 11.13 2.49 11.12 C 3.12 11.11 3.57 11.7 3.72 11.94 C 4.44 13.15 5.59 12.81 6.05 12.6 C 6.12 12.08 6.33 11.73 6.56 11.53 C 4.78 11.33 2.92 10.64 2.92 7.58 C 2.92 6.71 3.23 5.99 3.74 5.43 C 3.66 5.23 3.38 4.41 3.82 3.31 C 3.82 3.31 4.49 3.1 6.02 4.13 C 6.66 3.95 7.34 3.86 8.02 3.86 C 8.7 3.86 9.38 3.95 10.02 4.13 C 11.55 3.09 12.22 3.31 12.22 3.31 C 12.66 4.41 12.38 5.23 12.3 5.43 C 12.81 5.99 13.12 6.7 13.12 7.58 C 13.12 10.65 11.25 11.33 9.47 11.53 C 9.76 11.78 10.01 12.26 10.01 13.01 C 10.01 14.09 10 14.95 10 15.21 C 10 15.42 10.15 15.67 10.55 15.59 C 13.71 14.53 16 11.53 16 8 C 16 3.58 12.42 0 8 0 Z" fill="#FFFFFF"/>
+          </g>
+          <text x="38" y="22" class="sans" font-size="12.5" font-weight="600" fill="#FFFFFF">GitHub</text>
+        </g>
+      </a>
 
-      <!-- Pill 4: MongoDB -->
-      <rect x="272" y="0" width="94" height="26" rx="5" class="tech-pill-bg"/>
-      <text x="319" y="17" text-anchor="middle" class="sans tech-pill-text">🍃 MongoDB</text>
-
-      <!-- Pill 5: Java & DSA -->
-      <rect x="374" y="0" width="102" height="26" rx="5" class="tech-pill-bg"/>
-      <text x="425" y="17" text-anchor="middle" class="sans tech-pill-text">☕ Java &amp; DSA</text>
-
-      <!-- Pill 6: Python -->
-      <rect x="484" y="0" width="84" height="26" rx="5" class="tech-pill-bg"/>
-      <text x="526" y="17" text-anchor="middle" class="sans tech-pill-text">🐍 Python</text>
-
-      <!-- Pill 7: Docker -->
-      <rect x="576" y="0" width="84" height="26" rx="5" class="tech-pill-bg"/>
-      <text x="618" y="17" text-anchor="middle" class="sans tech-pill-text">🐳 Docker</text>
-    </g>
-
-    <!-- Quick Education / Location Note -->
-    <g transform="translate(2, 198)">
-      <text x="0" y="14" class="mono" font-size="11.5" fill="#9CB0C8">🎓 B.Tech CSE (Pursuing)  ·  📍 India  ·  🌐 Portfolio &amp; Repositories Below</text>
+      <!-- 4. Email Button (Dark Navy) -->
+      <a href="mailto:indrasinghjeena@gmail.com">
+        <g transform="translate(364, 0)">
+          <rect x="0" y="0" width="98" height="34" rx="8" fill="#091A2B" stroke="#1E3A52" stroke-width="1.2"/>
+          <!-- Mail Icon -->
+          <g transform="translate(14, 10)">
+            <rect x="0" y="0" width="16" height="12" rx="2" fill="none" stroke="#22D3EE" stroke-width="1.5"/>
+            <path d="M 0 2 L 8 8 L 16 2" fill="none" stroke="#22D3EE" stroke-width="1.3"/>
+          </g>
+          <text x="38" y="22" class="sans" font-size="12.5" font-weight="600" fill="#E2E8F0">Email</text>
+        </g>
+      </a>
     </g>
   </g>
 
-  <!-- Right Side Decorative HUD / Metrics Graphic -->
-  <g transform="translate(860, 100)">
-    <!-- Decorative Frame -->
-    <rect x="0" y="0" width="280" height="200" rx="10" fill="#061524" fill-opacity="0.85" stroke="#183044" stroke-width="1.5"/>
-    <rect x="0" y="0" width="280" height="26" rx="10" fill="#0B2035" stroke="#183044" stroke-width="1"/>
-    
-    <!-- Window Dots -->
-    <circle cx="16" cy="13" r="4" fill="#FF5F56"/>
-    <circle cx="28" cy="13" r="4" fill="#FFBD2E"/>
-    <circle cx="40" cy="13" r="4" fill="#27C93F"/>
-    <text x="60" y="17" class="mono" font-size="10.5" fill="#9CB0C8">developer_specs.json</text>
+  <!-- ================= RIGHT: HANDWRITTEN SLOGAN ================= -->
+  <g transform="translate(930, 95)">
+    <text x="40" y="30" class="hand" font-size="36" fill="#27E6A2" font-weight="700" letter-spacing="1" transform="rotate(-6 40 30)" filter="url(#mintGlow)">Better</text>
+    <text x="65" y="68" class="hand" font-size="34" fill="#27E6A2" font-weight="700" letter-spacing="1" transform="rotate(-6 65 68)" filter="url(#mintGlow)">Code</text>
+    <text x="75" y="112" class="hand" font-size="36" fill="#27E6A2" font-weight="700" letter-spacing="1" transform="rotate(-6 75 112)" filter="url(#mintGlow)">Bigger</text>
+    <text x="100" y="152" class="hand" font-size="38" fill="#27E6A2" font-weight="700" letter-spacing="1" transform="rotate(-6 100 152)" filter="url(#mintGlow)">Dreams</text>
 
-    <!-- JSON Specs -->
-    <g transform="translate(18, 50)" class="mono" font-size="11.5">
-      <text x="0" y="0" fill="#22D3EE">"developer": <tspan fill="#E8F0FA">"Indra Singh"</tspan>,</text>
-      <text x="0" y="24" fill="#22D3EE">"education": <tspan fill="#E8F0FA">"B.Tech CSE"</tspan>,</text>
-      <text x="0" y="48" fill="#22D3EE">"specialization": <tspan fill="#27E6A2">"MERN Stack"</tspan>,</text>
-      <text x="0" y="72" fill="#22D3EE">"algorithms": <tspan fill="#27E6A2">"Java + DSA"</tspan>,</text>
-      <text x="0" y="96" fill="#22D3EE">"status": <tspan fill="#27E6A2">"Open to Hire"</tspan>,</text>
-      <text x="0" y="120" fill="#22D3EE">"verified_projects": <tspan fill="#E8F0FA">4</tspan></text>
-    </g>
-
-    <!-- Bottom Glow Bar inside card -->
-    <rect x="18" y="184" width="244" height="2" fill="url(#neonMintGrad)"/>
+    <!-- Curved Underline Flourish -->
+    <path d="M 50 178 Q 120 195 190 148" fill="none" stroke="#27E6A2" stroke-width="3" stroke-linecap="round" opacity="0.9" filter="url(#mintGlow)"/>
   </g>
 
-  <!-- Bottom Accent Border -->
-  <rect x="0" y="417" width="1200" height="3" fill="url(#neonMintGrad)"/>
+  <!-- Bottom Accent Gradient Line -->
+  <rect y="417" width="1200" height="3" fill="url(#cyanMintGlow)"/>
 </svg>
